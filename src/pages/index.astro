@@ -23,7 +23,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Ideas Worth Exploring</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -40,22 +40,24 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
         <span class="sr-only">RSS Feed</span>
       </a>
-
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+          As humanity ushers in the age of AGI, it might seem an odd choice to start writing a blog now.
+          Chatting with an AI agent can help you learn what you want to know. 
+          Reading a blog, though, might reveal something you never realized you needed or wanted to understand. 
+          Learning new ideas or mindsets you hadn't considered before is an important part of personal growing and experience.
       </p>
       <p>
-        Read the blog posts or check
+          In this blog, I will share 
+      </p>
+      <!-- <p> -->
+        <!-- Read the blog posts or check
         <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://github.com/satnaing/astro-paper#readme"
         >
           README
-        </LinkButton> for more info.
-      </p>
+        </LinkButton> for more info. -->
+      <!-- </p> -->
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
