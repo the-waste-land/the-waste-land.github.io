@@ -8,7 +8,8 @@ import { SITE } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: SITE.website,
+  site: 'https://the-waste-land.github.io/',
+  // base: 'the-waste-land.github.io',
   integrations: [
     tailwind({
       applyBaseStyles: false,
