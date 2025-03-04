@@ -1,6 +1,7 @@
 {
-  "name": "",
+  "name": "the-waste-land",
   "version": "4.8.0",
+  "packageManager": "pnpm@8.0.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
