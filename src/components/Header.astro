@@ -55,12 +55,12 @@ const { activeNav } = Astro.props;
           </svg>
         </button>
         <ul id="menu-items" class="display-none sm:flex">
-          <li>
+          <!-- <li>
             <a href="/posts/" class={activeNav === "posts" ? "active" : ""}>
               Posts
             </a>
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <a href="/tags/" class={activeNav === "tags" ? "active" : ""}>
               Tags
             </a>
@@ -69,7 +69,7 @@ const { activeNav } = Astro.props;
             <a href="/about/" class={activeNav === "about" ? "active" : ""}>
               About
             </a>
-          </li>
+          </li> -->
           {
             SITE.showArchives && (
               <li>
@@ -150,6 +150,15 @@ const { activeNav } = Astro.props;
   </div>
   <Hr />
 </header>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPMYJT1EMX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MPMYJT1EMX');
+</script>
 
 <style>
   #skip-to-content {
