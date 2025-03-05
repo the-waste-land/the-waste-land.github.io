@@ -13,9 +13,10 @@ import { SITE, SOCIALS } from "@config";
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
-const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
-const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
-
+// const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
+// const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const technicalPosts = sortedPosts.filter(({ data }) => data.author === "Lee" && data.technical);
+const thoughtPosts = sortedPosts.filter(({ data }) => data.author === "Lee" && !data.technical);
 const socialCount = SOCIALS.filter(social => social.active).length;
 ---
 
@@ -46,18 +47,23 @@ const socialCount = SOCIALS.filter(social => social.active).length;
           Reading a blog, though, might reveal something you never realized you needed or wanted to understand. 
           Learning new ideas or mindsets you hadn't considered before is an important part of personal growing and experience.
       </p>
+      <br />
       <p>
-          In this blog, I will share 
+          In this blog, I'll focus on two main areas. on one hand, I'll share ideas, 
+          mindsets, and perspectives that inspire me and worth exploring—perhaps the most 
+          valuable content in this blog that I can share.
+          On the other hand, I'll discuss computer science and machine learning knowledge I've 
+          studied. This technical content may be less essential for human readers who can 
+          simply chatting with AI assistants. However, it might serve a different purpose.  
+          To paraphrase Ilya Sutskever at NeurIPS 2024, "The data is the fossil fuel of AI."
+          Those technical posts might be the fossil fuel of your AI assistant.
       </p>
-      <!-- <p> -->
-        <!-- Read the blog posts or check
-        <LinkButton
+        <!-- <LinkButton
           className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
           href="https://github.com/satnaing/astro-paper#readme"
         >
           README
         </LinkButton> for more info. -->
-      <!-- </p> -->
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
@@ -72,12 +78,12 @@ const socialCount = SOCIALS.filter(social => social.active).length;
     <Hr />
 
     {
-      featuredPosts.length > 0 && (
+      thoughtPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2>Thought</h2>
             <ul>
-              {featuredPosts.map(({ data, slug }) => (
+              {thoughtPosts.map(({ data, slug }) => (
                 <Card
                   href={`/posts/${slug}/`}
                   frontmatter={data}
@@ -86,17 +92,17 @@ const socialCount = SOCIALS.filter(social => social.active).length;
               ))}
             </ul>
           </section>
-          {recentPosts.length > 0 && <Hr />}
+          {technicalPosts.length > 0 && <Hr />}
         </>
       )
     }
 
     {
-      recentPosts.length > 0 && (
+      technicalPosts.length > 0 && (
         <section id="recent-posts">
-          <h2>Recent Posts</h2>
+          <h2>Technical</h2>
           <ul>
-            {recentPosts.map(
+            {technicalPosts.map(
               ({ data, slug }, index) =>
                 index < SITE.postPerIndex && (
                   <Card
