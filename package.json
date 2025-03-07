@@ -1,7 +1,7 @@
 {
   "name": "the-waste-land",
   "version": "4.8.0",
-  "packageManager": "pnpm@8.0.0",
+  "packageManager": "pnpm@10.5.2",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -17,6 +17,7 @@
     "@astrojs/check": "^0.9.3",
     "@astrojs/rss": "^4.0.7",
     "@resvg/resvg-js": "^2.6.2",
+    "@waline/client": "^3.5.5",
     "astro": "^4.16.18",
     "fuse.js": "^7.0.0",
     "lodash.kebabcase": "^4.1.1",

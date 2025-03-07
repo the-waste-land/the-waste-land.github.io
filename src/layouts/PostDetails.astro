@@ -8,6 +8,7 @@ import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 import ShareLinks from "@components/ShareLinks.astro";
 import { SITE } from "@config";
+import Comments from "@components/Comments.astro";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -96,6 +97,7 @@ const nextPost =
       {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} />)}
     </ul>
 
+    <Comments />
     <div
       class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
     >
@@ -146,6 +148,7 @@ const nextPost =
           </a>
         )
       }
+
       {
         nextPost && (
           <a

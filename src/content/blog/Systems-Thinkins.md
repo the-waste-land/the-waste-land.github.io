@@ -6,7 +6,7 @@ slug: systems-mindset
 featured: false
 technical: false
 draft: false
-ogImage: /assets/forrest-gump-quote.webp
+# ogImage: /assets/forrest-gump-quote.webp
 tags:
   - Mindset
   - system 
@@ -68,6 +68,8 @@ description:
 
 ## Notes:
 [1] Muraven M, Baumeister RF. Self-regulation and depletion of limited resources: does self-control resemble a muscle?
+
 [2] Ahrens, Sönke. How to take smart notes: One simple technique to boost writing, learning and thinking. Sönke Ahrens, 2022.
+
 [3] The French economist Frédéric Bastiat said, "The sweeter the first fruit of a habit, the more bitter are its later fruits." 
 

@@ -1,0 +1,25 @@
+
+<div id="waline"></div>
+
+<script>
+  import { init } from '@waline/client';
+  import '@waline/client/waline.css';
+
+  // 确保DOM加载完成后初始化评论系统
+  document.addEventListener('DOMContentLoaded', () => {
+    init({
+      el: '#waline',
+      serverURL: 'https://waline-ten-azure.vercel.app/',
+      lang: 'en',
+      dark: 'auto', // 自动适应暗色模式
+      // 更多配置: https://waline.js.org/reference/client.html
+    });
+  });
+</script>
+
+<style>
+  /* 自定义评论区样式 */
+  #waline {
+    @apply mt-10 pt-6 border-t border-gray-200;
+  }
+</style>
