@@ -38,12 +38,12 @@ export const SOCIALS: SocialObjects = [
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
-  // {
-  //   name: "Facebook",
-  //   href: "https://github.com/satnaing/astro-paper",
-  //   linkTitle: `${SITE.title} on Facebook`,
-  //   active: true,
-  // },
+  {
+    name: "Zhihu",
+    href: "https://zhihu.com/people/leelwx ",
+    linkTitle: `${SITE.title} on Zhihu`,
+    active: true,
+  },
   // {
   //   name: "X",
   //   href: "https://github.com/satnaing/astro-paper",

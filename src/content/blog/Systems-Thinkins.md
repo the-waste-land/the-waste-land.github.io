@@ -1,6 +1,6 @@
 ---
 title: Systems Mindset 
-author: Lee
+author: W.X Lee
 pubDatetime: 2025-03-04T19:42:51Z
 slug: systems-mindset
 featured: false

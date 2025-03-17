@@ -1,8 +1,8 @@
 ---
-title: No Writing, No Thinking
-author: WX, Lee
-pubDatetime: 2025-03-17T19:42:51Z
-slug: no-write-no-thinking
+title: No Writing No Thinking
+author: W.X Lee
+pubDatetime: 2025-03-15T19:42:51Z
+slug: no-writing-no-thinking
 featured: false
 technical: false
 draft: false
@@ -15,6 +15,7 @@ description:
 
 ## Table of contents
 
+> If you're think without writing, you only think you're thinking. -- Leslie Lamport(Computer Scientist, Turing Award Winner)
 ## The Mere Exposure Effect
 Nowadays, it seems that people are becoming more intelligent with the support of AI. We can answer whatever questions we have readily with the help of AI. 
 
@@ -43,5 +44,7 @@ Paul Graham, the co-founder of Y Combinator, stated in his blog[3] that with the
 
 ## Notes:
 [1] https://en.wikipedia.org/wiki/Mere-exposure_effect
-[1] https://en.wikipedia.org/wiki/Mere-exposure_effect
-[1] https://en.wikipedia.org/wiki/Mere-exposure_effect
+
+[2] https://academic.oup.com/edited-volume/38597
+
+[3] https://www.paulgraham.com/writes.html
