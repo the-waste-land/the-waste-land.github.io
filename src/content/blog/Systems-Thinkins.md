@@ -24,7 +24,7 @@ description:
   However, I have observed that many people set goals only to forget about them after a while. Many others struggle to achieve their goals without feeling happiness in the process. Few people actually achieve their goals and go back to their old habits after a while.
 
 ## The problem with goals
-  The problem with goals is that they will not really let you achieve what you want. Keep gaze on the goal, and you will not achieve it. Even worse, goals set you up to a dichotomy of success or failure. If you not achieve the goal, you feel like a failure. 
+  The problem with goals is that they will not really let you achieve what you want. Keep your eyes on the goal, and you will not achieve it. Even worse, goals set you up to a dichotomy of success or failure. If you not achieve the goal, you feel like a failure. 
 
   Before you achieve the goal, you will not feel happy. So, we often sacrifice our happiness for the sake of achieving our goals, but never realize that doing the things that we want may make us happy. Reading a good book, keeping a healthy diet, or learning a new skill can be enjoyable activities. But we often forget about them because we are too focused on achieving our goals.
  
